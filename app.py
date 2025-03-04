@@ -4,7 +4,7 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
-file=r"C:\Users\shada\Downloads\ShadabKhanResume (1).pdf"
+file=r"file_name.pdf"
 
 pdf = PdfReader(file)
 text = ""
