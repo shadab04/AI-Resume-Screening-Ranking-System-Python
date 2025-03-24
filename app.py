@@ -13,12 +13,16 @@ import re
 import random 
 # import pafy
 
+<<<<<<< HEAD
 # def fetch_yt_video(link):
 #     video = pafy.new(link)
 #     return video.title
 # Load environment variables
 load_dotenv()
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
+=======
+file=r"file_name.pdf"
+>>>>>>> a4801b0354aa5db878c973bc4ec92e7c69d60379
 
 # Connect to MySQL
 connection = pymysql.connect(
@@ -94,6 +98,7 @@ def fetch_data():
     rows = cursor.fetchall()
     return pd.DataFrame(rows)
 
+<<<<<<< HEAD
 # Streamlit App Configuration
 st.set_page_config(page_title="ATS Resume Expert")
 st.header("AI Resume Screening and Ranking System")
@@ -233,3 +238,10 @@ st.video(interview_vid)  # Display video
 
 # Remove unnecessary connection.commit() here
 # Only use connection.commit() after database operations
+=======
+    # Display scores
+    results = pd.DataFrame({"Resume": [file.name for file in uploaded_files], "Score": score })
+    results = results.sort_values(by="Score", ascending=False)
+    
+    st.write(results)
+>>>>>>> a4801b0354aa5db878c973bc4ec92e7c69d60379
