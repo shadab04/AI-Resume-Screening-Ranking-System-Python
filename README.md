@@ -19,7 +19,7 @@ This project is an **AI-powered resume screening system** that helps job seekers
 ✅ Resume improvement tips
 ✅ Store user data in MySQL
 ✅ Display learning videos for resume writing and interview preparation
-
+![Resume Screening](Logo/features.png)
 ## 🛠️ Technologies Used
 - **Python** - Main programming language
 - **Streamlit** - Web app framework
@@ -49,6 +49,8 @@ Make sure MySQL is running and create a database named **sra**.
 ```bash
 streamlit run app.py
 ```
+### 4️⃣ User Interface
+![Resume Screening](Logo/UI.png)
 
 ## 📌 How It Works
 1. **User Inputs**
