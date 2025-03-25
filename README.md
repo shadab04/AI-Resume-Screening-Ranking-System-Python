@@ -49,10 +49,11 @@ Make sure MySQL is running and create a database named **sra**.
 ```bash
 streamlit run app.py
 ```
-### 4️⃣ User Interface
+### User Interface
 ![Resume Screening](Logo/UI.png)
 
 ## 📌 How It Works
+![Resume Screening](Logo/DFD.png)
 1. **User Inputs**
    - The user uploads a resume (PDF) and provides a job description.
 2. **Resume Processing**
