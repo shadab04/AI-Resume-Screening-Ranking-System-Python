@@ -238,10 +238,8 @@ st.video(interview_vid)  # Display video
 
 # Remove unnecessary connection.commit() here
 # Only use connection.commit() after database operations
-=======
     # Display scores
     results = pd.DataFrame({"Resume": [file.name for file in uploaded_files], "Score": score })
     results = results.sort_values(by="Score", ascending=False)
     
     st.write(results)
->>>>>>> a4801b0354aa5db878c973bc4ec92e7c69d60379
