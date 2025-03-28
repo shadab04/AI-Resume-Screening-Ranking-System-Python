@@ -51,7 +51,7 @@ streamlit run app.py
 ```
 ### User Interface
 ![Resume Screening](Logo/UI.png)
-
+![Resume Screening](Logo/UI2.png)
 ## 📌 How It Works
 ![Resume Screening](Logo/DFD.png)
 1. **User Inputs**
