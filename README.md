@@ -89,7 +89,8 @@ The project creates a table named **user_data** with the following fields:
 - Integrate with **job portals** for automatic job recommendations.
 - Provide **customized interview questions** based on resume.
 - Use **more AI models** for better resume analysis.
-
+- User can give **Real-Time Feedback**.
+- **Multiple Resume Formats**  Supporting Word documents and other file types, not just PDFs.
 ## 💡 Contribution
 Feel free to fork this repo, add improvements, and make a pull request! 🚀
 
