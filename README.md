@@ -91,6 +91,15 @@ The project creates a table named **user_data** with the following fields:
 - Use **more AI models** for better resume analysis.
 - User can give **Real-Time Feedback**.
 - **Multiple Resume Formats**  Supporting Word documents and other file types, not just PDFs.
+
+
+## ⚠️Limitations of AI Resume Screening and Ranking Systems
+- Lack of Context Understanding
+- Over-Reliance on Keywords
+- Bias in Training Data
+- Difficulty with Formatting
+- Privacy Concerns
+
 ## 💡 Contribution
 Feel free to fork this repo, add improvements, and make a pull request! 🚀
 
