@@ -95,8 +95,8 @@ The project creates a table named **user_data** with the following fields:
 
 ## ⚠️Limitations of AI Resume Screening and Ranking Systems
 - Lack of Context Understanding
-- Over-Reliance on Keywords
-- Bias in Training Data
+- Limited Soft Skill Evaluation
+- Dependence on Job Description Quality
 - Difficulty with Formatting
 - Privacy Concerns
 
